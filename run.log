@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "E:\College work Engineering\SE sem3\Mini Project\app.py", line 134, in <module>
+    @app.route('/api/customers', methods=['GET','POST'])
+     ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\College work Engineering\SE sem3\Mini Project\venv\Lib\site-packages\flask\sansio\scaffold.py", line 362, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\College work Engineering\SE sem3\Mini Project\venv\Lib\site-packages\flask\sansio\scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "E:\College work Engineering\SE sem3\Mini Project\venv\Lib\site-packages\flask\sansio\app.py", line 657, in add_url_rule
+    raise AssertionError(
+    ...<2 lines>...
+    )
+AssertionError: View function mapping is overwriting an existing endpoint function: api_customers

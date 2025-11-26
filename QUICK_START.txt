@@ -1,0 +1,57 @@
+═══════════════════════════════════════════════════════════════
+  CAR WASH POS - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+EASIEST WAY TO START:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Double-click: start.bat
+
+That's it! The server will start automatically.
+
+
+MANUAL START (Git Bash or Terminal):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Open Git Bash in this folder
+
+2. Run these commands:
+   source venv/Scripts/activate
+   python app.py
+
+3. Open browser: http://localhost:5000
+
+
+IF SERVER WON'T START:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Make sure virtual environment is activated
+   (You should see "(venv)" in your terminal prompt)
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Clear Python cache:
+   - Delete __pycache__ folders
+   - Delete *.pyc files
+
+4. Try again with: python app.py
+
+
+ACCESSING YOUR WEBSITE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Once server is running, open in browser:
+
+✓ Main POS:      http://localhost:5000
+✓ Test Route:    http://localhost:5000/test
+✓ Dashboard:     http://localhost:5000/dashboard
+✓ POS Alternate: http://localhost:5000/pos
+
+
+IMPORTANT NOTES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Keep the terminal window OPEN while using the website
+• Press Ctrl+C to stop the server
+• Use http://localhost:5000 (NOT just localhost:5000)
+• Make sure no other program is using port 5000
+
+
+═══════════════════════════════════════════════════════════════
+
